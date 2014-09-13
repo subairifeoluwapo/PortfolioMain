@@ -182,6 +182,20 @@ PAGE: ABOUT
 	opacity: 1;
 }
 
+.imgbox {
+	float: right;
+	width: 270px;
+	height: 270px;
+	background-image: url('../img/music.jpg');
+	background-repeat: no-repeat;
+}
+
+.imgbox:hover {
+	width: 270px;
+	height: 270px;
+	background-image: url('../img/love.jpg');
+	background-repeat: no-repeat;
+}
 
 
 /*****************
