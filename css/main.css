@@ -4,6 +4,7 @@ GENERAL
 body {
 	font-family: 'Special Elite', cursive;
 	position: relative; padding-top: 130px;
+
 }
 
 
@@ -127,7 +128,7 @@ PAGE: PORTFOLIO
 
 #gallery li {
 	float: left;
-	width: 45%;
+	width: 42%;
 	margin: 2.5%;
 	background-image: url('../img/vintage.jpg');
 	color: #000;
@@ -147,19 +148,45 @@ PAGE: PORTFOLIO
 PAGE: ABOUT
 ****************/
 
-.profile-photo {
-	display: block;
-	max-width: 150px;
-	border-radius: 30%;
+#about {
+	display: inline-block;
+	margin-top: 20%;
+	margin-bottom: 1em;
+	margin-right: 2em;
+	margin-left: 2em;
+	padding-top: 10em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	margin-right: 1em;
+	background-image: url('../img/vintage.jpg');
+	color: #fff;
 }
 
-#about {
-	margin-top: 80%;
+.profile-photo {
+	max-width: 150px;
+	border-radius: 40%;
 }
+
+
 
 /*****************
 PAGE: CONTACT
 ****************/
+
+#contact {
+	display: inline-block;
+	margin-top: 20%;
+	margin-bottom: 20%;
+	margin-right: 2em;
+	margin-left: 2em;
+	padding-top: 10em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	margin-right: 1em;
+	background-image: url('../img/vintage.jpg');
+	color: #fff;
+}
+
 
 .contact-info {
 	list-style: none;
@@ -221,7 +248,8 @@ h1, h2 {
 
 /*links*/
 a {
-	color: #6ab47b;
+	color: #fff;
+	font-weight: bolder;
 }
 
 
