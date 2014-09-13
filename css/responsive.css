@@ -88,7 +88,7 @@ h2 {
 }
 
 header {
-	background-image: url('../img/vintage6.jpg');
+	background-image: url('../img/vintage3.jpg');
 	border-bottom: 5px solid #000;
 	margin-bottom: 60px;
 }
@@ -138,7 +138,7 @@ a:hover {
 	margin-right: 5em;
 	margin-left: 5em;
 	margin-top: 1em;
-	background-image: url('../img/vintage6.jpg');
+	background-image: url('../img/vintage3.jpg');
 	color: #000;
 	margin-bottom: 2em;
 }
