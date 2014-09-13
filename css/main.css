@@ -99,7 +99,7 @@ footer {
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
-	background-image: url('../img/vintage.jpg');
+	background-image: url('../img/vintage1.jpg');
 }
 
 footer p {
@@ -111,6 +111,11 @@ footer p {
 	width: 25px;
 	height: 25px;
 	margin: 0 5px;
+	opacity: 0.7;
+}
+
+.social-icon:hover {
+	opacity: 1;
 }
 
 /*****************
@@ -130,12 +135,13 @@ PAGE: PORTFOLIO
 	float: left;
 	width: 40%;
 	margin: 2.5%;
-	background-image: url('../img/vintage.jpg');
+	background-image: url('../img/vintage1.jpg');
+	opacity: .7;
 	color: #000;
 }
 
 #gallery li:hover {
-
+	opacity: 1;
 }
 
 #gallery li a p {
@@ -169,6 +175,11 @@ PAGE: ABOUT
 .profile-photo {
 	max-width: 150px;
 	border-radius: 40%;
+	opacity: .7;
+}
+
+.profile-photo:hover {
+	opacity: 1;
 }
 
 
@@ -180,7 +191,7 @@ PAGE: CONTACT
 #contact {
 	display: inline-block;
 	margin-top: 20%;
-	margin-bottom: 20%;
+	margin-bottom: 5%;
 	margin-right: 2em;
 	margin-left: 2em;
 	padding-top: 10em;
@@ -241,7 +252,8 @@ header {
 
 /*nav background on mobile*/
 nav {
-	background-image: url('../img/vintage.jpg');
+	background-image: url('../img/vintage1.jpg');
+	opacity: .7;
 }
 
 /*logo text*/

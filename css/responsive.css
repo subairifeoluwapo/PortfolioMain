@@ -66,6 +66,11 @@ nav {
 
 }
 
+nav ul li {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
 #logo {
 	float: left;
 	margin-left:5%;
@@ -148,6 +153,8 @@ footer {
 	height: 30px;
 	margin: 0 5px;
 }
+
+
 
 
 
