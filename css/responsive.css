@@ -63,6 +63,7 @@ nav {
 	margin-right: 5%;
 	text-align: right;
 	width: 45%;
+
 }
 
 #logo {
@@ -73,17 +74,67 @@ nav {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 2.8em;
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin-bottom: 5px;
 }
 
 header {
-	border-bottom: 5px solid #599a68;
+	background-image: url('../img/vintage3.jpg');
+	border-bottom: 5px solid #000;
 	margin-bottom: 60px;
+}
+
+h1, h2 {
+	color: #000;
+	opacity: .9;
+}
+
+
+
+#gallery li {
+	background-image: url('../img/vintage2.jpg');
+	text-align: right;
+}
+
+#gallery li a p {
+	color: #000;
+}
+
+#about {
+	padding: 10em 2.5em;
+	margin-right: 5em;
+	margin-left: 5em;
+	margin-top: 60%;
+	background-image: url('../img/vintage5.jpg');
+	}
+
+.profile-photo:hover {
+
+}
+
+
+#contact {
+	padding: 15em 2.5em;
+	margin-right: 5em;
+	margin-left: 5em;
+	margin-top: 20%;
+	background-image: url('../img/vintage3.jpg');
+}
+
+
+footer {
+	background-image: url('../img/vintage2.jpg');
+	margin-top: 10%;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
 }
 
 
