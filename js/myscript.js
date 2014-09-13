@@ -8,13 +8,17 @@ var portfolioAnimate = {
 		$('h1').animate({'marginRight': divWidth + "px"}, 2000);
 		}
 
-	//changeProfileImage: function() {
-		//$('.profile-photo').click(
-			//$('img').remove();
-			//$('.profile-photo').append('<img src="img/love.jpg" class="profile-photo">');
-		//)
-	//}//
+	//iconAnimate: function() {
+		//var divHeight = $("footer").height() / 100 * 10;
+		//$('.social-icon').hover( function() {
+		//$('.social-icon').animate({'marginBottom': divHeigth + "px"}, 3000);
+		//});
+	//},
 
+	//initialize: function() {
+		//portfolioAnimate.textAnimate();
+		//portfolioAnimate.iconAnimate();
+	//}
 
 }
 
