@@ -188,6 +188,7 @@ PAGE: ABOUT
 	height: 270px;
 	background-image: url('../img/love.jpg');
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 
