@@ -71,6 +71,18 @@ nav ul li {
 	font-weight: bolder;
 }
 
+nav a, nav a:visited {
+	color: #000;
+}
+
+nav a.selected {
+	color: gold;
+} 
+
+nav a:hover {
+	color: #fff;
+}
+
 #logo {
 	float: left;
 	margin-left:5%;
