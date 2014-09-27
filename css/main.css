@@ -236,8 +236,11 @@ PAGE: CONTACT
 	background-image: url('../img/mail.png');
 }
 
-.contact-info li.twitter a {
-	background-image: url('../img/twitter.png');
+.contact-info li.phone a:hover {
+	color: black;
+}
+.contact-info li.mail a:hover {
+	color: black;
 }
 
 

@@ -72,15 +72,16 @@ nav ul li {
 }
 
 nav a, nav a:visited {
-	color: #000;
+	color: black;
 }
 
+/*selected nav link*/
 nav a.selected {
-	color: gold;
+	color: white;
 } 
 
 nav a:hover {
-	color: #fff;
+	color: white;
 }
 
 #logo {
@@ -115,15 +116,18 @@ a {
 	font-weight: bolder;
 }
 
-a:hover {
-	color: gold;
+.contact-info li.phone a:hover {
+	color: darkgrey;
+}
+.contact-info li.mail a:hover {
+	color: darkgrey;
 }
 
 
 #gallery li {
 	background-image: url('../img/vintage2.jpg');
 	text-align: right;
-	opacity: .7;
+	opacity: .8;
 }
 
 #gallery li a p {
