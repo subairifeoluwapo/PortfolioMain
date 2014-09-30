@@ -131,7 +131,8 @@ PAGE: PORTFOLIO
 
 #gallery li {
 	float: left;
-	width: 40%;
+	width: 45%;
+	max-height: 6.7em;
 	margin: 2.5%;
 	background-image: url('../img/vintage1.jpg');
 	color: #000;

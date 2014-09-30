@@ -29,9 +29,10 @@ PAGE: PORTFOLIO
 
 #gallery li {
 	width: 28.3333%;
+	max-height: 10em;
 }
 
-#gallery li:nth-child(4n) {
+#gallery li:nth-child(7n) {
 	clear: left;
 }
 
